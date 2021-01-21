@@ -250,8 +250,6 @@ def main():
     # ===Modify codes below=============
     while True:
         x = input('Input your message(H - Help, 0 - Exit): ')
-        # print(x, is_validated_morse_code(x), is_validated_english_sentence(x))
-        # print(decoding_sentence(user_input))
         if x == '0':
             break
         elif is_help_command(x):
